@@ -1,11 +1,11 @@
 //multiple inheritance
-interface Animal{
+interface Animal1{
     void eat();
 }
 interface Bird{
     void fly();
 }
-public class Bat implements Animal, Bird{
+public class Bat implements Animal1, Bird{
     public void eat(){
         System.out.println("Bat eats fruits.");
     }
