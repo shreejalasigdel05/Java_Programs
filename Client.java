@@ -13,7 +13,7 @@ public class Client {
             System.out.println(result);
             sc.close();
         }catch(Exception e){
-            e.getMessage();
+            System.out.println(e.getMessage());
         }
     } 
 }
